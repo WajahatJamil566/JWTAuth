@@ -9,7 +9,7 @@ namespace Auth_AuthorizationAPI.Controllers
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+        };
 
         [HttpGet("Get")]
         public IActionResult Get()
